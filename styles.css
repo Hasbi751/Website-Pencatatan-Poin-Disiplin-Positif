@@ -1,0 +1,124 @@
+/* CSS Global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container Utama */
+.container {
+    background: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Judul */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    margin-top: 20px;
+}
+
+/* Search Bar */
+.search-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Dropdown List */
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Checkbox List */
+.checkboxes {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    padding: 8px 0;
+}
+
+/* Tombol */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button, .view-leaderboard {
+    flex: 1;
+    padding: 12px 0;
+    margin: 0 5px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover, .view-leaderboard:hover {
+    background-color: #45a049;
+}
+
+/* Leaderboard Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.back-btn:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,36 @@
+CREATE DATABASE duta_disiplin;
+USE duta_disiplin;
+
+-- Tabel untuk data siswa
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    class VARCHAR(10)
+);
+
+-- Tabel untuk kriteria poin
+CREATE TABLE duties (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255)
+);
+
+-- Tabel untuk mencatat poin siswa
+CREATE TABLE points (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    duty_id INT,
+    date DATE,
+    point INT DEFAULT 1,
+    FOREIGN KEY (student_id) REFERENCES students(id),
+    FOREIGN KEY (duty_id) REFERENCES duties(id)
+);
+
+-- Tabel untuk rekap poin bulanan
+CREATE TABLE monthly_scores (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    month VARCHAR(10),
+    year YEAR,
+    total_points INT,
+    FOREIGN KEY (student_id) REFERENCES students(id)
+);

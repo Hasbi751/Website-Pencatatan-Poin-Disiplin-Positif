@@ -1,0 +1,14 @@
+Creative Commons Attribution-NonCommercial 4.0 International License
+
+Copyright (c) [2024] [Muhammad Hasbi Pohan]
+
+This license allows you to:
+1. Use, modify, and share the software for non-commercial purposes.
+
+However, you may not:
+1. Use the software for commercial purposes, including selling, distributing, or using it for any paid services or for-profit activities.
+
+The software is provided "as is", without any warranties or guarantees.
+
+Year: [2024]
+Name: [Muhammad Hasbi Pohan]
